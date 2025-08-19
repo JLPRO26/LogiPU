@@ -18,3 +18,18 @@ INP 0 --Loads the input number into register 0
 INC 1 -- Increments register 1 by 1
 OUT 1 -- Outputs register 1's value
 JMPC 0 > 1 1 --Checks if register 1 is below register 0. If so, loop back.
+
+Ram Demo:
+
+INS 251 0 -- insert 251 into register 0
+STOR 0 5 -- store the contents of register 0 into memory address 5
+INS 0 0 -- set register 0 to 0
+NOOP
+NOOP
+NOOP -- nothing, just for the demo's sake.
+NOOP
+NOOP
+NOOP
+NOOP
+LOAD 0 5 -- load the contents of memory address 5 into register 0
+OUT 0 -- output register 0

@@ -51,6 +51,9 @@ INC r1:
 DEC r1:
   Decreases the register r1 by 1
 
+INP r1:
+  Loads the input of the CPU into register.
+
 Jumping commands:
 
 JMP v:

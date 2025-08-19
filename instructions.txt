@@ -1,7 +1,9 @@
 Instructions guide:
 Registers are 0, 1, 2 and 3. Do not write r1, r2, or r3, just the number.
 Any arguments that are "v" are numbers you can write, like 123, 300, 690, etc. (maximum is 65536) (this cpu only handles whole numbers)
+Any arguments that are "v2" are 8 bit numbers you can write with a max of 256.
 !! Instructions begin at 0. So, the very first instruction is instruction 0. Keep this in mind when jumping! !!
+
 
 ADD r1 r2 rOUT:
   Adds registers r1 and r2, sending the result to rOUT

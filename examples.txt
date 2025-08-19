@@ -1,0 +1,14 @@
+Basic counting program (to 100):
+
+INS 100 3 --Loads 100 into register 3
+INS 1 2 --Loads 1 into register 2
+ADD 1 2 1 --Adds register 1 and 2, sending the result back to register 1
+OUT 1 --Sends register 1 to the output of the CPU
+JMPC 3 > 1 2 --checks if register 1 is less than 100, looping back to instruction 2 (the addition).
+
+Basic counting program (endless):
+
+INS 1 2 --Loads 1 into register 2
+ADD 1 2 1 --Adds register 1 and register 2, sending the result back to register 1
+OUT 1 --Sends register 1 to the output of the CPU
+JMP 1 --Jumps back to instruction 1 (addition)

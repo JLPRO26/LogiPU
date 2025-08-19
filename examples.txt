@@ -12,3 +12,9 @@ INC 0 --Increment register 0 by 1
 OUT 0 -- Outputs register 0's value
 JMP 0 -- Jumps back to the start of the program.
 
+User Input Counting Program:
+
+INP 0 --Loads the input number into register 0
+INC 1 -- Increments register 1 by 1
+OUT 1 -- Outputs register 1's value
+JMPC 0 > 1 1 --Checks if register 1 is below register 0. If so, loop back.
